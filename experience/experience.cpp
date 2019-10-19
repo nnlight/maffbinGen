@@ -68,8 +68,7 @@ static void Replace(const std::string &filename)
 		if (idx >= 1)
 		{
 			//e.elem[ExperienceBinEntry::kExpRatio] = 1024 * 100;
-			//e.elem[ExperienceBinEntry::kExpRatio] = 1024 * 30;
-			e.elem[ExperienceBinEntry::kExpRatio] = 1024 * 10;
+			e.elem[ExperienceBinEntry::kExpRatio] = 1024 * 20;
 		}
 
 		fwrite(&e, sizeof(e), 1, f);
